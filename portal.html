@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal | Sultanov Space</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="auth-section" class="container">
+        <h2>O'quvchi Profili</h2>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Parol">
+        <button id="login-btn">Kirish</button>
+        <button id="register-btn">Ro'yxatdan o'tish</button>
+    </div>
+
+    <div id="app-section" class="container" style="display: none;">
+        <header>
+            <h2 id="user-display">Xush kelibsiz!</h2>
+            <button id="logout-btn">Chiqish</button>
+        </header>
+
+        <section class="add-lesson">
+            <h3>Dars Qo'shish</h3>
+            <select id="lesson-day">
+                <option value="Dushanba">Dushanba</option>
+                <option value="Seshanba">Seshanba</option>
+                <option value="Chorshanba">Chorshanba</option>
+                <option value="Payshanba">Payshanba</option>
+                <option value="Juma">Juma</option>
+                <option value="Shanba">Shanba</option>
+            </select>
+            <input type="text" id="lesson-name" placeholder="Fan nomi">
+            <input type="time" id="lesson-time">
+            <input type="text" id="lesson-room" placeholder="Xona raqami">
+            <button id="save-lesson">Saqlash</button>
+        </section>
+
+        <section class="timetable">
+            <h3>Haftalik Jadvalingiz</h3>
+            <div id="schedule-output">
+                </div>
+        </section>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
