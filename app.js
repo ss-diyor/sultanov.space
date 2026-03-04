@@ -4,7 +4,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase
 
 // Sizning nusxalab olgan konfiguratsiyangiz
 const firebaseConfig = {
-  apiKey: "AIzaSyDhqRKG4ECFK4LdEpK7LgF7rQS3JoBeT0A",
+  apiKey: "AIzaSyDhqRKG4ECFK4LdEpK7LgF7rQS3JoBeTOA",
   authDomain: "bustanlik-ss.firebaseapp.com",
   projectId: "bustanlik-ss",
   storageBucket: "bustanlik-ss.firebasestorage.app",
